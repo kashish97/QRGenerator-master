@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "400831349816",
+    "firebase_url": "https://manac-ffd1b.firebaseio.com",
+    "project_id": "manac-ffd1b",
+    "storage_bucket": "manac-ffd1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400831349816:android:383ba02f64c91cef",
+        "android_client_info": {
+          "package_name": "androidmads.example"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400831349816-iqop8g93hqkrripg75dci56c2mu25ecj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "androidmads.example",
+            "certificate_hash": "249af755fb9c9e36b269f71391052c3f821909b0"
+          }
+        },
+        {
+          "client_id": "400831349816-l0261fm3dunjem62fmbvjetp84jnjmvo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqAbIltW7L6-cXTYbFjinQQSqRNySh2ng"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400831349816-l0261fm3dunjem62fmbvjetp84jnjmvo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

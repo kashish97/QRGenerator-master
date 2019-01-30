@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.TrackFragment">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:padding="20dp"
+       android:layout_height="wrap_content">
+
+      <ImageView
+          android:id="@+id/ScanBut"
+          android:layout_width="52dp"
+          android:layout_height="57dp"
+          android:layout_marginLeft="20dp"
+          android:src="@mipmap/upp" />
+
+      <TextView
+          android:layout_width="184dp"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="10dp"
+          android:layout_marginTop="1dp"
+          android:fontFamily="@font/montserrat"
+          android:text="Please Click Here To Upload Image"
+          android:textColor="@color/bl"
+          android:textSize="18sp"
+          android:textStyle="bold" />
+   </LinearLayout>
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_marginBottom="20dp"
+         android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="169dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="12dp"
+            android:background="@color/bl" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:fontFamily="@font/montserrat"
+            android:text="OR"
+            android:textColor="@color/bl"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+        <TableRow
+            android:background="@color/bl"
+            android:layout_width="184dp"
+            android:layout_marginTop="12dp"
+            android:layout_height="1dp"/>
+
+     </LinearLayout>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+   <Button
+       android:id="@+id/scan"
+       android:layout_width="187dp"
+       android:layout_centerHorizontal="true"
+       android:layout_height="wrap_content"
+       android:background="@color/bl"
+       android:fontFamily="@font/montserrat"
+       android:text="Scan"
+       android:textColor="@color/white" />
+</RelativeLayout>
+
+
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/recycler"
+       android:layout_marginTop="20dp"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+</LinearLayout>
+</FrameLayout>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.HomeFragment">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_vertical_margin"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/eventt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="0dp"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/upp" />
+</RelativeLayout>
+
+            <Button
+                android:id="@+id/btnChoose"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:layout_marginTop="18dp"
+                android:background="@color/colorPrimary1"
+                android:fontFamily="@font/montserrat"
+                android:text="Click To Upload Image"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:hint="Location"
+                android:textColorHint="@color/bl">
+
+                <EditText
+                    android:id="@+id/txtname"
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/montserrat"
+                    android:textColor="@color/bl"
+                    android:padding="8dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Location"
+                    android:inputType="textPersonName" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:hint="Location"
+                android:textColorHint="@color/bl">
+
+                <EditText
+                    android:id="@+id/txttype"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:fontFamily="@font/montserrat"
+                    android:hint="Date"
+                    android:textColor="@color/bl"
+                    android:inputType="datetime|date"
+                    tools:text="@tools:sample/date/ddmmyy" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:padding="10dp"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/bl">
+
+                <EditText
+                    android:id="@+id/txtdesc"
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/montserrat"
+                    android:textColor="@color/bl"
+                    android:padding="8dp"
+                    android:layout_height="wrap_content"
+                    android:hint="Quantity"
+                    android:inputType="number" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/btnEvent"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/colorPrimary1"
+                android:fontFamily="@font/montserrat"
+                android:text="Submit"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/start"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+
+                android:background="@color/bl"
+                android:fontFamily="@font/montserrat"
+                android:text="Generate"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@color/bl"
+                android:layout_marginLeft="5sp"
+                android:fontFamily="@font/montserrat"
+                android:text="Save"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/QR_Image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name" />
+
+    </LinearLayout>
+
+</ScrollView>
+</FrameLayout>
